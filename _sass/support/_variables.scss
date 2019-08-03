@@ -60,8 +60,8 @@ $nav-child-link-color: $grey-dk-100 !default;
 $link-color: $purple-000 !default;
 $btn-primary-color: $purple-100 !default;
 $base-button-color: #f7f7f7 !default;
-$highlighter-color = $white;
-$highlighter-background-color = $grey-dk-250;
+$highlighter-color = $white !default;
+$highlighter-background-color = $grey-dk-250 !default;
 //
 // Media queries in pixels
 //
