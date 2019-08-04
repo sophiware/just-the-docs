@@ -55,6 +55,10 @@
         <div id="main-content" class="page-content" role="main">
           {{ content }}
 
+          {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+          {% endif %}
+
           {% if page.has_children == true and page.has_toc != false %}
           <hr>
           <h2 class="text-delta">Table of contents</h2>
